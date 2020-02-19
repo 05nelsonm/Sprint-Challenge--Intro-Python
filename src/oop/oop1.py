@@ -17,3 +17,31 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+
+class Vehicle:  # <-- Base Class to GroundVehicle && FlightVehicle
+    pass
+
+
+class GroundVehicle(Vehicle):  # <-- Base Class to Car && Motorcycle
+    pass
+
+
+class FlightVehicle(Vehicle):  # <-- Base Class to StarShip && Airplane
+    pass
+
+
+class Starship(FlightVehicle):
+    pass
+
+
+class Airplane(FlightVehicle):
+    pass
+
+
+class Car(GroundVehicle):
+    pass
+
+
+class Motorcycle(GroundVehicle):
+    pass
